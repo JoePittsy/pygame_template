@@ -51,7 +51,7 @@ class PyGame(object):
                 sys.exit()
 
         pygame.display.flip()
-        fpsClock.tick(fps)
+        self.fpsClock.tick(self.fps)
 
     def run(self):
         while True:
