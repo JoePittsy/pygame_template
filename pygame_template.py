@@ -54,6 +54,3 @@ class PyGame(object):
     def run(self):
         while True:
             self.game_loop()
- 
-
-print(Colours.RANDOM())
